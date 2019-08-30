@@ -1,0 +1,102 @@
+
+#-------------------------------#
+# THE LIST OF INSTRUCTIONS FOR  #
+# LETHBRIDGE UNIX WORKSHOP 2019 #
+#-------------------------------#
+
+git clone https://github.com/mrbuchwaldt/UNIXBasics2019.git
+
+./setup.sh
+
+#==================================/
+#= 1. Moving Around the System: ==/
+#================================/
+
+# Display path from root to current location ("Print Working Directory")
+$ pwd
+
+# Show files in directory (working directory if not specified, "LiSt")
+$ ls
+
+# Change the current working directory (Home if not specified, Change Directory)
+$ cd Documents
+
+#===========================/
+#= 2. Manipulating Files ==/
+#=========================/
+
+# Create a file
+$ touch file.txt
+
+# Copy a file
+$ cp file.txt file_copy.txt
+
+# Move/rename a file
+$ mv file.txt NamedFile.txt
+$ mv NamedFile.txt ..//
+
+# Deleting file
+$ rm file_copy.txt
+
+* Can specify paths to files, the above don't only need to work on the current working directory
+
+# Print contents of a file to STDOUT
+$ cat setup.sh
+
+# Print lines from the top/bottom of a file
+$ head Instructions.txt
+$ tail Instructions.txt
+$ tail -n 11 Instructions.txt
+
+# Read a file with a paginated layout and scrolling
+$ less Instructions.txt
+
+#=================================/
+#= 3. Redirecting Input/Output ==/
+#===============================/
+
+# Redirect STDIN
+$ cat
+$ cat < setup.sh
+
+# Redirect STDOUT
+$ ls > fileListing.2019.Sept20.txt
+
+# Redirect STDERR
+$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Always read files with README in the name.
+If you follow
+the above rule
+you will never 
+have any issues
+running bioinformatics 
+analysis.
+In fact,
+it's just generally good
+fife advice.
+So, never forget that important rule.
