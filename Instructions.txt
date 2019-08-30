@@ -65,6 +65,62 @@ $ ls > fileListing.2019.Sept20.txt
 # Redirect STDERR
 $ 
 
+# PIPES
+$ ls -lh | wc -l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
